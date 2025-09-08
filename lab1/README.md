@@ -21,6 +21,11 @@ In this lab, you will complete the XSS web attack lab tasks from the SEED Labs. 
    
    > On Broadcom’s download page, if **Download** is disabled, click **Terms and Conditions** → check **I agree** → try again.
    > <img src="../fusion-download-terms.png" width="780" alt="Broadcom portal: check 'I agree' to enable the Download button">
+   
+   > After installing **VMware Fusion**, **ignore** the three items at the bottom of the SEED page
+   > (“Enter license key”, “Open Security Preferences”, “Allow kernel extensions”).  
+   > These are not needed for our setup. **Proceed to Step 2 to download Ubuntu 22.04 ARM64** and continue.
+   > <img width="1962" height="1033" alt="seed-fusion-bottom-steps" src="../seed-fusion-bottom-steps.png" />
 2. Start the VM and log in with the credentials shown in the SEED lab setup page.  
 3. Download **Labsetup-arm.zip** from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/). You can download it directly on the VM or download it on your host machine and transfer it to the VM using the shared folder feature of VMware Fusion. **Unzip the setup file** and start your lab.
 
