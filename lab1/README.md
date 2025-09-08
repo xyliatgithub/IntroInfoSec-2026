@@ -15,6 +15,8 @@ In this lab, you will complete the XSS web attack lab tasks from the SEED Labs. 
 
 
 ### Apple Silicon Machines ARM64
+*Note*: The latest VirtualBox Player may be compatible with these computers. But we have not tested thenm.
+
 1. Follow SEED’s [**Fusion installation guide for Apple Silicon**](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to download & install VMware Fusion (Apple Silicon) and get Ubuntu 22.04 ARM64.
    
    > On Broadcom’s download page, if **Download** is disabled, click **Terms and Conditions** → check **I agree** → try again.
