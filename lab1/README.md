@@ -4,26 +4,24 @@ In this lab, you will complete the XSS web attack lab tasks from the SEED Labs. 
 
 ## Environment Setup
 
-You can always gain access to the computers in the MSSI lab for this course. You may be asked to complete certain paperwork in order to gain access.
+> [!IMPORTANT]
+> If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
+
 
 ### Intel/AMD Machines x86-64
+1. Follow SEED’s [**VM manual for VirtualBox**](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md) to download & install VirtualBox and get the pre-built Ubuntu 20.04 x86-64 VM.
+2. Start the VM and log in with the credentials shown on the SEED Lab Environment Setup page.  
+3. Download the **Labsetup.zip** from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/). You can download it directly on the VM or download it on your host machine and transfer it to the VM using the shared folder feature of VMware Fusion. **Unzip the setup file** and start your lab.
 
-1. Install VirtualBox Player first, https://www.virtualbox.org/ if you do not have it already. (Note: VirtualBox is available for most consumer computers, If you have trouble with this step, we encourage you to find a solution by yourself.)
-2. Please follow very carefully [VM setup instructions](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md).
-3. Go to the [Lab Environment Setup page](https://seedsecuritylabs.org/labsetup.html) to install the pre-built VM image (for *Ubuntu 20.04* VM 64 bits).
-4. After building the VM, you can start the VM and log in with the username and password provided in the lab setup page.
-5. Download the lab specific zip file (Labsetup.zip) from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/). You can download it directly onto the VM or download it onto your host machine and transfer it to the VM using the shared folder feature of VirtualBox.
-6. Unzip the setup file and start your lab.
 
 ### Apple Silicon Machines ARM64
+1. Follow SEED’s [**Fusion installation guide for Apple Silicon**](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to download & install VMware Fusion (Apple Silicon) and get Ubuntu 22.04 ARM64.
+   
+   > On Broadcom’s download page, if **Download** is disabled, click **Terms and Conditions** → check **I agree** → try again.
+   > <img src="../fusion-download-terms.png" width="780" alt="Broadcom portal: check 'I agree' to enable the Download button">
+2. Start the VM and log in with the credentials shown in the SEED lab setup page.  
+3. Download **Labsetup-arm.zip** from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/). You can download it directly on the VM or download it on your host machine and transfer it to the VM using the shared folder feature of VMware Fusion. **Unzip the setup file** and start your lab.
 
-1. The latest VirtualBox Player may be compaitable with these computers now.
-2. You can also install [free VMware Fusion](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html). (Note: If you have trouble with this step, we encourage you to find a solution by yourself.)
-3. Please read very carefully [VM setup instructions](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md).
-4. Go to the [Lab Environment Setup page](https://seedsecuritylabs.org/labsetup.html) to install the VM (*Ubuntu 22.04*).
-5. After building the VM, you can start the VM and log in with the username and password provided in the lab setup page.
-6. Download the lab specific zip file (Labsetup-arm.zip) from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/). You can download it directly on the VM or download it on your host machine and transfer it to the VM using the shared folder feature of VMware Fusion.
-7. Unzip the setup file and start your lab.
 
 ## Cross-Site Scripting (XSS) Attack Lab
 
