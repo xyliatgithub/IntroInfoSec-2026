@@ -8,6 +8,8 @@ Basic knowledge of computer networking is recommended. To get the most out of th
 
 ## Environment Setup
 
+Please refer to the related information in Lab 1.
+
 ### Intel/AMD Machines x86-64
 
 1. Install VirtualBox first, https://www.virtualbox.org/ if you do not have it already. (Note: VirtualBox is available for most consumer computers, If you have trouble with this step, we encourage you to find a solution by yourself)
