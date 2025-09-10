@@ -14,7 +14,7 @@ Basic knowledge of computer networking is recommended. To get the most out of th
 - Unzip the setup file and start your lab.
 
 
-## 1. Packet Sniffing and Spoofing (35 points)
+## 1. Packet Sniffing and Spoofing (25 points)
 
 https://seedsecuritylabs.org/Labs_20.04/Files/Sniffing_Spoofing/Sniffing_Spoofing.pdf
 
@@ -44,5 +44,5 @@ attacks.
 
 ## Grading
 
-- Completeness (30 points): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
-- Presentation (20 points): The report must be clear and correct in organization and writing with adequate explanation.
+- Completeness (25 points): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
+- Presentation (15 points): The report must be clear and correct in organization and writing with adequate explanation.
