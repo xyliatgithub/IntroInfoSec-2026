@@ -10,10 +10,14 @@ Basic knowledge of computer networking is recommended. To get the most out of th
 > [!IMPORTANT]
 > If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
 
-- Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
-- For Packet Sniffing and Spoofing Lab, download the lab specific zip file (Labsetup.zip) from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Networking/Sniffing_Spoofing/).
-- For TCP/IP Attack Lab, download the lab specific zip file (Labsetup.zip) from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Networking/TCP_Attacks/). You can download it directly on the VM or download it on your host machine and transfer it to the VM using the shared folder feature of VMware Fusion.
-- Unzip the setup file and start your lab.
+1. Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
+2. For Packet Sniffing and Spoofing Lab, download the lab specific zip file **matching your CPU** from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Networking/Sniffing_Spoofing/):
+- **Intel/AMD (x86-64):** `Labsetup.zip`
+- **Apple Silicon (ARM64):** `Labsetup-arm.zip`
+3. For TCP/IP Attack Lab, download the lab specific zip file **matching your CPU** from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Networking/TCP_Attacks/):
+- **Intel/AMD (x86-64):** `Labsetup.zip`
+- **Apple Silicon (ARM64):** `Labsetup-arm.zip`
+4. You can download directly inside the VM, or download on your host and transfer it to the VM using the shared folder feature (VirtualBox/VMware Fusion). Unzip the file and start your lab.
 
 
 ## 1. Packet Sniffing and Spoofing (25 points)
