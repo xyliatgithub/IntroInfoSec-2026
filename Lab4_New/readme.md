@@ -2,19 +2,9 @@
 
 The learning objective of this lab is for students to gain the first-hand experience on the machine learning based spam filters and related adversarial attacks. Coding experience is recommended, so you might want to work with someone with programming backgrounds. 
 
-## Lab Manual
-
-The lab manual is a notebook (ipynb) file. You will find textboxes and code blocks to work on for a set of questions and task. You don't need to write a separate report for this lab. Please include all your answers and code in the lab manual for submission. Please explain clearly your ideas and steps as instructed. Remember to save regularly when you are working on the notebook.
-
-The dataset needed for this lab is in this Git folder called messages.csv. 
-
 ## Environment Setup
 
 For this lab, you will need to use google colab, and you need a google account to use it. If you have never used google colab or jupyter notebook before, you can go through this tutorial first: https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb.
-
-### Use of Google Colab
-
-Open the link https://colab.research.google.com/notebooks/. Then just upload the notebook file you download from the Canvas. Then you can work on the notebook file directly. 
 
 ## Introduction
 
@@ -38,6 +28,7 @@ This lab explores adversarial attacks on machine learning models, focusing on bo
 This lab provides insights into **adversarial attack vulnerabilities** in both machine learning and LLM-based spam filters, highlighting potential security risks and countermeasures.  
 
 ## Learning Objectives
+
 By completing this lab, you will:
 - Understand how SVM-based machine learning spam filters work.
 - Learn how TF-IDF is used as an embedding strategy for text classification.
@@ -45,11 +36,20 @@ By completing this lab, you will:
 - Explore the application of magic words you have found to evade BERT- and GPT-2-based spam filters.
 - Deploy adversarial attacks against spam filters using magic words.
 
-## Setup
-- Download the LingSpam dataset [messages.csv](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/messages.csv)
-- Download lab part 1 notebook [SVM Spam Filter and Adversarial Attack](https://github.com/xyliatgithub/EN650654-2025/blob/main/Adversarial_Attack/EN650_654_2025_FinalLab_part1_update_Li_4_18_2025.ipynb).
-  - Due to a recent change the numpy version on colab no longer support the PGD attack. Now you need to finish this part on your own machine, recommend to use anaconda and set a python version 3.9.21, other package requirements are listed in [requirements.txt](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/requirements.txt)
-- Copy lab part 2 notebook [LLM Spam Filter and Adversarial Attack](https://github.com/xyliatgithub/EN650654-2025/blob/main/Adversarial_Attack/EN650_654_2025_FinalLab_part2_Lab_Version_Li_4_18_2025.ipynb) on your drive. You can run this part at colab.
+## How to run (Colab)
+
+1. Open Google Colab → [https://colab.research.google.com](https://colab.research.google.com/notebooks/)
+
+2. Upload the notebook(s) from Canvas/GitHub:
+
+ - Part 1: [EN650_654_2025_FinalLab_part1_update_Li_4_18_2025.ipynb](https://github.com/xyliatgithub/IntroInfoSec-2025/blob/master/Lab4_New/650_601_Lab4_1_2025.ipynb)
+
+ - Part 2: [EN650_654_2025_FinalLab_part2_Lab_Version_Li_4_18_2025.ipynb](https://github.com/xyliatgithub/IntroInfoSec-2025/blob/master/Lab4_New/650_601_Lab4_1_2025.ipynb)
+
+3. Provide the LingSpam dataset [messages.csv](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/messages.csv) (upload to Colab or mount Drive).
+
+4. Run cells top-to-bottom.
+
 
 ## Lab Tasks
 
@@ -57,16 +57,16 @@ By completing this lab, you will:
 2. You can transfer the "magic words" from Part 1 to Part 2 by copying or saving them temporarily in a file.
 3. Ensure that you clearly understand and explain each step in the notebook.
 4. Execute all code blocks, describe the steps, and answer all related questions.
-5. Please include the information and results for all the tasks and the answers to the questions in one pdf file for submission.
+5. One .ipynb per group (include all code, plots, answers to all Questions/Tasks inside the notebook).
    
 
 ## Submission Details
 
 - Each group only needs to submit one report in ipynb format.
-- Please list group members in your report explicitly.
+- Include group member names at the top of the notebook.
 - Only typed reports are accepted.
 
-## Grading
+## Grading ( 60 pts )
 
 - Completeness (35 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
 - Presentation (25 pts): The report must be clear and correct in organization and writing with adequate explanation.
