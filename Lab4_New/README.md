@@ -3,12 +3,12 @@
 The learning objective of this lab is for students to gain the first-hand experience on the machine learning based spam filters and related adversarial attacks. Coding experience is recommended, so you might want to work with someone with programming backgrounds. 
 
 
-> [!COLAB TIPS]
+> [!TIPS]
 > For this lab, you will need to use google colab, and you need a google account to use it. If you have never used google colab or jupyter notebook before, you can go through this tutorial first: https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb.
 
 ## Introduction
 
-Machine learning-based spam filters classify emails based on labeled training data. However, adversarial attacks can modify spam emails to evade detection by making small but strategic changes. This lab explores how TF-IDF features are manipulated using the Projected Gradient Descent (PGD) algorithm to identify "magic words," which increase the chances of spam emails bypassing an SVM classifier. Additionally, we extend this attack to large language model-based spam filters, inclluding BERT and GPT-2.
+Machine learning-based spam filters classify emails based on labeled training data. However, adversarial attacks can modify spam emails to evade detection by making small but strategic changes. This lab explores how TF-IDF features are manipulated using the Projected Gradient Descent (PGD) algorithm to identify "magic words," which increase the chances of spam emails bypassing an SVM classifier. Additionally, we extend this attack to large language model-based spam filters, including BERT and GPT-2.
 
 ## Lab Overview  
 
