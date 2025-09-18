@@ -1,4 +1,4 @@
-# Lab Assignment 4 - Adversarial Attacks Against Spam Filters
+# Lab 4 - Adversarial Attacks Against Spam Filters
 
 The learning objective of this lab is for students to gain the first-hand experience on the machine learning based spam filters and related adversarial attacks. Coding experience is recommended, so you might want to work with someone with programming backgrounds. 
 
