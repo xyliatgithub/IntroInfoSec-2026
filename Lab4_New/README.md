@@ -2,9 +2,8 @@
 
 The learning objective of this lab is for students to gain the first-hand experience on the machine learning based spam filters and related adversarial attacks. Coding experience is recommended, so you might want to work with someone with programming backgrounds. 
 
-## Environment Setup
-
-For this lab, you will need to use google colab, and you need a google account to use it. If you have never used google colab or jupyter notebook before, you can go through this tutorial first: https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb.
+> [!Colab Tips]
+> For this lab, you will need to use google colab, and you need a google account to use it. If you have never used google colab or jupyter notebook before, you can go through this tutorial first: https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb.
 
 ## Introduction
 
@@ -57,12 +56,11 @@ By completing this lab, you will:
 2. You can transfer the "magic words" from Part 1 to Part 2 by copying or saving them temporarily in a file.
 3. Ensure that you clearly understand and explain each step in the notebook.
 4. Execute all code blocks, describe the steps, and answer all related questions.
-5. One .ipynb per group (include all code, plots, answers to all Questions/Tasks inside the notebook).
-   
+
 
 ## Submission Details
 
-- Each group only needs to submit one report in ipynb format.
+- One .ipynb per group (include all code, plots, answers to all Questions/Tasks inside the notebook).
 - Include group member names at the top of the notebook.
 - Only typed reports are accepted.
 
