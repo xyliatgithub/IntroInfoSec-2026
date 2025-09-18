@@ -40,8 +40,8 @@ By completing this lab, you will:
 
 1. Open Google Colab → [https://colab.research.google.com](https://colab.research.google.com/notebooks/)
 2. Upload the notebook(s) from Canvas/GitHub:
-  - Part 1: [EN650_654_2025_FinalLab_part1_update_Li_4_18_2025.ipynb](https://github.com/xyliatgithub/IntroInfoSec-2025/blob/master/Lab4_New/650_601_Lab4_1_2025.ipynb)
-  - Part 2: [EN650_654_2025_FinalLab_part2_Lab_Version_Li_4_18_2025.ipynb](https://github.com/xyliatgithub/IntroInfoSec-2025/blob/master/Lab4_New/650_601_Lab4_1_2025.ipynb)
+    - Part 1: [EN650_654_2025_FinalLab_part1_update_Li_4_18_2025.ipynb](https://github.com/xyliatgithub/IntroInfoSec-2025/blob/master/Lab4_New/650_601_Lab4_1_2025.ipynb)
+    - Part 2: [EN650_654_2025_FinalLab_part2_Lab_Version_Li_4_18_2025.ipynb](https://github.com/xyliatgithub/IntroInfoSec-2025/blob/master/Lab4_New/650_601_Lab4_1_2025.ipynb)
 3. Provide the LingSpam dataset [messages.csv](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/messages.csv) (upload to Colab or mount Drive).
 4. Run cells top-to-bottom.
 
