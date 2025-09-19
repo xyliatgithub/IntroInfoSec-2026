@@ -59,7 +59,7 @@ By completing this lab, you will:
 - Include group member names at the top of the notebook.
 - Only typed reports are accepted.
 
-## Grading ( 60 pts )
+## Grading (60 pts)
 
 - Completeness (35 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
 - Presentation (25 pts): The report must be clear and correct in organization and writing with adequate explanation.
