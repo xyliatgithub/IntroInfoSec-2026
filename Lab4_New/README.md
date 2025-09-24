@@ -8,7 +8,7 @@ The learning objective of this lab is for students to gain the first-hand experi
 
 ## Introduction
 
-Machine learning-based spam filters classify emails based on labeled training data. However, adversarial attacks can modify spam emails to evade detection by making small but strategic changes. This lab explores how TF-IDF features are manipulated using the Projected Gradient Descent (PGD) algorithm to identify "magic words," which increase the chances of spam emails bypassing an SVM classifier. Additionally, we extend this attack to large language model-based spam filters, including BERT and GPT-2.
+Machine learning-based spam filters classify emails based on labeled training data. However, adversarial attacks can modify spam emails to evade detection by making small but strategic changes. This lab explores how TF-IDF features are manipulated using the Projected Gradient Descent (PGD) algorithm to identify "magic words," which increase the chances of spam emails bypassing an SVM classifier. Additionally, we extend this attack to large language model-based spam filters, BERT.
 
 ## Lab Overview  
 
@@ -21,7 +21,7 @@ This lab explores adversarial attacks on machine learning models, focusing on bo
 - These words will also be used in the black-box attacks in Part 2. 
 
 ### 2. Black-Box Attack on Large Language Models (LLMs)  
-- In this section, we extend the attack to **black-box settings**, targeting LLM-based classifiers using **BERT** and **GPT-2**.  
+- In this section, we extend the attack to **black-box settings**, targeting LLM-based classifiers using **BERT**.  
 - Without access to model gradients, we apply the previously discovered magic words to spam emails, modifying their structure and placement.  
 - By inserting these words or sentences made of them at different positions, we generate **adversarial emails** and evaluate their impact on the LLM classifiers.  
 
@@ -33,7 +33,7 @@ By completing this lab, you will:
 - Understand how SVM-based machine learning spam filters work.
 - Learn how TF-IDF is used as an embedding strategy for text classification.
 - Implement the PGD attack to find magic words that can fool spam filters.
-- Explore the application of magic words you have found to evade BERT- and GPT-2-based spam filters.
+- Explore the application of magic words you have found to evade BERT-based spam filters.
 - Deploy adversarial attacks against spam filters using magic words.
 
 ## How to run (Colab)
