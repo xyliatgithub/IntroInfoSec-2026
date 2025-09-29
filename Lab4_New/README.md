@@ -21,9 +21,9 @@ This lab explores adversarial attacks on machine learning models, focusing on bo
 - These words will also be used in the black-box attacks in Part 2. 
 
 ### 2. Black-Box Attack on Large Language Models (LLMs)  
-- In this section, we extend the attack to **black-box settings**, targeting LLM-based classifiers using **BERT**.  
-- Without access to model gradients, we apply the previously discovered magic words to spam emails, modifying their structure and placement.  
-- By inserting these words or sentences made of them at different positions, we generate **adversarial emails** and evaluate their impact on the LLM classifiers.  
+- In this section, we extend the attack to **black-box settings**, targeting LLM-based classifier using **BERT**.  
+- Without access to model gradients, we reuse the magic words discovered earlier and modify spam emails by varying their insertion structure and placement.
+- By inserting these words or sentences made of them at different positions, we generate **adversarial emails** and evaluate their impact on the BERT classifier’s predictions.
 
 This lab provides insights into **adversarial attack vulnerabilities** in both machine learning and LLM-based spam filters, highlighting potential security risks and countermeasures.  
 
