@@ -11,7 +11,7 @@ This lab assignment will complete the RSA Public-Key Encryption and Signature La
 3. You can download directly inside the VM, or download on your host and transfer it to the VM using the shared folder feature (VirtualBox/VMware Fusion). Unzip the file and start your lab.
 
 
-## RSA Public-Key Encryption and Signature Lab (50 points)
+## RSA Public-Key Encryption and Signature Lab (40 points)
 
 Please thoroughly go through the [lab description](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_RSA/Crypto_RSA.pdf) and complete all the tasks listed on it. We recommend you read the entire document before you start. You will need to write a detailed report with adequate screenshots and explanations, including your code and demonstration that your code can work.
 
@@ -29,5 +29,5 @@ Please thoroughly go through the [lab description](https://seedsecuritylabs.org/
 
 ## Grading
 
-- Completeness (30 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
-- Presentation (20 pts): The report must be clear and correct in organization and writing with adequate explanation.
+- Completeness (25 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
+- Presentation (15 pts): The report must be clear and correct in organization and writing with adequate explanation.
