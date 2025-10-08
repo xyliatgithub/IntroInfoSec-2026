@@ -12,14 +12,12 @@ The lab manual and several datasets are available on Canvas. You will find a set
 
 
 ## Environment Setup
+> [!IMPORTANT]
+> If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
 
-Note that you can directly work on the ARX tool on your computer. This is especially recommended for those Apple laptops with ARM chips.
 
 ### Intel/AMD Machines x86-64 (Using VM)
-
-1. Install VirtualBox first, https://www.virtualbox.org/ if you do not have it already. (Note: VirtualBox is available for most consumer computers, If you have trouble with this step, we encourage you to find a solution by yourself)
-2. VM setup instructions (read very carefully): https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md
-3. Go to [Lab Environment Setup page](https://seedsecuritylabs.org/labsetup.html) to install the pre-built VM image (for Ubuntu 20.04 VM 64 bits). You cannot work on it directly on your personal machine.
+1. Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
 
 #### Install ARX on the SEED VM:
 
