@@ -17,7 +17,7 @@ The lab manual and several datasets are available on Canvas. You will find a set
 
 
 ### Intel/AMD Machines x86-64 (Using VM)
-1. Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
+Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
 
 #### Install ARX on the SEED VM:
 
