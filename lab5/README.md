@@ -33,12 +33,12 @@ Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 se
 
 #### Install ARX locally:
 
-1. In your VM, go to the ARX download website: https://arx.deidentifier.org/downloads/.
+1. Go to the ARX download website: https://arx.deidentifier.org/downloads/.
 2. From Anonymization Tool -> Installer, download the `MacOS 64-Bit` version of the ARX.
-3. After download the ARX, open the folder where the ARX zip file is downloaded.
+3. After download the ARX, open the folder where the ARX zip file is downloaded. (If it’s already unzipped, skip the next step.)
 4. Use the command `unzip ARX-3.9.2-osx-installer.app.zip` to unzip the file.
 5. Use the command `cd ARX-3.9.2-osx-installer.app/Contents/MacOS` to get find the installer file `installbuilder.sh`.
-6. Use the command `chmod +x installbuilder.sh` to make your SH file executable.
+6. Use the command `chmod +x installbuilder.sh` to make your SH file executable. If there is no response after running this command, continue with Step 8.
 7. An alert will then pop up, stating:
 
 ```
