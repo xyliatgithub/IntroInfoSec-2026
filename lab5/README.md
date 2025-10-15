@@ -45,8 +45,7 @@ Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 se
 Apple could not verify “ARX-3.9.1-osx-installer” is free of malware that may harm your Mac or compromise your privacy.
 ```
 
-8. Open the `System Preferences` -> `Security & Privacy` -> `General` -> `Open Anyway` to allow the installation.
-
+8. Open the `System Preferences` -> `Privacy & Security`. Scroll to the bottom, and you will see a message: “ARX-3.9.2-osx-installer.app was blocked.” Click **Open Anyway / Allow** to proceed with the installation.
 9. After the installation, you can find the ARX tool in the Applications folder.
 
 ## Submission Details
