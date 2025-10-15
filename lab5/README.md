@@ -25,8 +25,8 @@ Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 se
 2. In your VM, go to the ARX download website: https://arx.deidentifier.org/downloads/.
 3. From Anonymization Tool -> Installer, download the `Linux/GTK 64bit` version of the ARX.
 4. After download the ARX, in you VM file folder, open the terminal.
-5. Use the command `chmod +x ARX-3.9.1-linux-x64-installer.run` to make your RUN file executable.
-6. Use the command `./ARX-3.9.1-linux-x64-installer.run` to execute your RUN file for downloading the ARX tools on your SEED VM.
+5. Use the command `chmod +x ARX-3.9.2-linux-x64-installer.run` to make your RUN file executable.
+6. Use the command `./ARX-3.9.2-linux-x64-installer.run` to execute your RUN file for downloading the ARX tools on your SEED VM.
 7. Downbload the zip file containing the datasets to be used and save them on the VM.
 
 ### Apple Machines (ARM chips)
@@ -36,8 +36,8 @@ Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 se
 1. In your VM, go to the ARX download website: https://arx.deidentifier.org/downloads/.
 2. From Anonymization Tool -> Installer, download the `MacOS 64-Bit` version of the ARX.
 3. After download the ARX, open the folder where the ARX zip file is downloaded.
-4. Use the command `unzip ARX-3.9.1-osx-installer.app.zip` to unzip the file.
-5. Use the command `cd ARX-3.9.1-osx-installer.app/Contents/MacOS` to get find the installer file `installbuilder.sh`.
+4. Use the command `unzip ARX-3.9.2-osx-installer.app.zip` to unzip the file.
+5. Use the command `cd ARX-3.9.2-osx-installer.app/Contents/MacOS` to get find the installer file `installbuilder.sh`.
 6. Use the command `chmod +x installbuilder.sh` to make your SH file executable.
 7. An alert will then pop up, stating:
 
