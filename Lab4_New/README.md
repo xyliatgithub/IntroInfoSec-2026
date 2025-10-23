@@ -64,8 +64,25 @@ By completing this lab, you will:
 
 ## Publication References 
 
-(1) Q. Cheng, A. Xu, X. Li, and L. Ding, “Adversarial Email Generation against Spam Detection Models through Feature Perturbation,” The 2022 IEEE International Conference on Assured Autonomy (ICAA’22), Virtual Event, March 22-23, 2022.
+(1) This lab and code is developed by Dr. Xiangyang Li and his research/teaching assistants at Johns Hopkins University, licensed under a Creative Commons CC BY license https://creativecommons.org/licenses/by/4.0/.
 
-(2) C. Wang, D. Zhang, S. Huang, X. Li, and L. Ding, “Crafting Adversarial Email Content against Machine Learning Based Spam Email Detection,” In Proceedings of the 2021 International Symposium on Advanced Security on Software and Systems (ASSS ’21) with AsiaCCS 2021, Virtual Event, Hong Kong, June 7, 2021.
+## **Introduction**
+
+
+In this lab, we attack large language model (LLM)-enabled spam filters by adversarial emails leveraging the *magic words* identified with direct access to another model. This is called a black-box attack.
+
+
+Specifically, the tasks in this lab:
+- Add the magic words or sentences made from these words to spam emails.
+- Evaluate the effectiveness of these adversarial emails bypassing LLM-based spam detection.
+- Analyze how different insertion positions within the email body affect the attack success rate.
+
+Through this experiment, we seek to gain insights into the vulnerabilities of modern spam filters powered by LLMs. The following reference contains more information:
+
+- Q. Tang and X. Li, “WiP: An Investigation of Large Language Models and Their Vulnerabilities in Spam Detection,” The Hot Topics in the Science of Security Symposium (HotSoS 2025), Virtual Event, April 1-3, 2025. [Download](https://isi.jhu.edu/wp-content/uploads/2025/03/HoTSoS_LLM_Based_Spam_Detection.pdf)
+
+- Q. Cheng, A. Xu, X. Li, and L. Ding, “Adversarial Email Generation against Spam Detection Models through Feature Perturbation,” The 2022 IEEE International Conference on Assured Autonomy (ICAA’22), Virtual Event, March 22-23, 2022.
+
+- C. Wang, D. Zhang, S. Huang, X. Li, and L. Ding, “Crafting Adversarial Email Content against Machine Learning Based Spam Email Detection,” In Proceedings of the 2021 International Symposium on Advanced Security on Software and Systems (ASSS ’21) with AsiaCCS 2021, Virtual Event, Hong Kong, June 7, 2021.
 
 You can download these papers at https://isi.jhu.edu/people/xyli/
