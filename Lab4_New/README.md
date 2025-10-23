@@ -14,14 +14,14 @@ Machine learning-based spam filters classify emails based on labeled training da
 This lab explores adversarial attacks on machine learning models, focusing on both **white-box** and **black-box** attack scenarios. The experiment is structured into two main parts:  
 
 ### 1. White-Box Attack on Traditional Machine Learning Models  
-- This section employs a **Projected Gradient Descent (PGD) attack** on a **TF-IDF-based spam filter**.  
-- By perturbing the model input in the feature space, we identify special **"magic words"** that can alter the classifier’s predictions.  
-- These magic words are then inserted into spam emails themselves to evade detection, demonstrating the vulnerability of traditional spam filters to adversarial attacks.
+- This section employs a **Projected Gradient Descent (PGD) attack** on a spam filter using **TF-IDF features**.  
+- By perturbing the feature input in the feature space, we identify special **"magic words"** that can alter the classifier’s predictions.  
+- These magic words are then inserted into spam emails to evade detection, demonstrating the vulnerability of traditional spam filters to adversarial attacks.
 - These words will also be used in the black-box attacks in Part 2. 
 
 ### 2. Black-Box Attack on Large Language Models (LLMs)  
 - In this section, we extend the attack to **black-box settings**, targeting LLM-based classifier using **BERT**.  
-- Without access to model gradients, we reuse the magic words discovered earlier and modify spam emails by varying their insertion structure and placement.
+- We reuse the magic words discovered earlier and modify spam emails by varying the insertion structure and placement.
 - By inserting these words or sentences made of them at different positions, we generate **adversarial emails** and evaluate their impact on the BERT classifier’s predictions.
 
 This lab provides insights into **adversarial attack vulnerabilities** in both machine learning and LLM-based spam filters, highlighting potential security risks and countermeasures.  
