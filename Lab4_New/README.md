@@ -53,8 +53,7 @@ By completing this lab, you will:
 
 ## Submission Details
 
-- Two .ipynb files per group (include all code, plots, answers to all Questions/Tasks inside the notebook.).
-- Include group member names at the top of the notebook.
+- Two .ipynb files per team. Include all code, plots, answers to all Questions/Tasks inside the notebook files. Compress the two files into a .zip file for submission.
 - Only typed reports are accepted.
 
 ## Grading (50 pts)
