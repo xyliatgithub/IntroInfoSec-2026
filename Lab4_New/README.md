@@ -53,7 +53,7 @@ By completing this lab, you will:
 
 ## Submission Details
 
-- One .ipynb per group (include all code, plots, answers to all Questions/Tasks inside the notebook).
+- Two .ipynb files per group (include all code, plots, answers to all Questions/Tasks inside the notebook.).
 - Include group member names at the top of the notebook.
 - Only typed reports are accepted.
 
