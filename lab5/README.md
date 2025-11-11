@@ -48,6 +48,14 @@ Apple could not verify “ARX-3.9.2-osx-installer” is free of malware that may
 8. Open the `System Preferences` -> `Privacy & Security`. Scroll to the bottom, and you will see a message: “ARX-3.9.2-osx-installer.app was blocked.” Click **Open Anyway / Allow** to proceed with the installation.
 9. After the installation, you can find the ARX tool in the Applications folder.
 
+### Continue to Lab Experiment
+
+After successfully installing ARX (on either the SEED VM or an Apple ARM machine):
+
+1. **Download the provided dataset zip file** from this repository.
+2. **Extract** the zip file and **open ARX** to import the dataset.
+3. You can now **start the anonymization experiment** following the lab instructions.
+
 ## Submission Details
 
 - Each group only needs to submit one report in PDF format.
