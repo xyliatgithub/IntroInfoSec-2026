@@ -16,7 +16,7 @@ The lab manual and several datasets are available on Canvas. You will find a set
 > If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
 
 
-### Intel/AMD Machines x86-64 (Using VM)
+### 1. Intel/AMD Machines x86-64 (Using VM)
 Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
 
 #### Install ARX on the SEED VM:
@@ -29,7 +29,7 @@ Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 se
 6. Use the command `./ARX-3.9.2-linux-x64-installer.run` to execute your RUN file for downloading the ARX tools on your SEED VM.
 7. Downbload the zip file containing the datasets to be used and save them on the VM.
 
-### Apple Machines (ARM chips)
+### 2. Apple Machines (ARM chips)
 
 #### Install ARX locally:
 
@@ -47,8 +47,8 @@ Apple could not verify “ARX-3.9.2-osx-installer” is free of malware that may
 
 8. Open the `System Preferences` -> `Privacy & Security`. Scroll to the bottom, and you will see a message: “ARX-3.9.2-osx-installer.app was blocked.” Click **Open Anyway / Allow** to proceed with the installation.
 9. After the installation, you can find the ARX tool in the Applications folder.
----
-### Continue to Lab Experiment
+
+### 3. Continue to Lab Experiment
 
 After successfully installing ARX (on either the SEED VM or an Apple ARM machine):
 
