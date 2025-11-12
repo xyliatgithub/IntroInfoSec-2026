@@ -12,6 +12,9 @@ The lab manual and several datasets are available on Canvas. You will find a set
 
 
 ## Environment Setup
+
+Note: In general there are two options to install thesoftware package used for this lab either in a VM or on your computer directly. 
+
 > [!IMPORTANT]
 > If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
 
