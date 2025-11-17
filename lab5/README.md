@@ -12,15 +12,17 @@ The lab manual and several datasets are available on Canvas. You will find a set
 
 
 ## Environment Setup
-
-Note: In general there are two options to install the software package used for this lab either in a VM or on your computer directly. 
+Note: In general, there are two options for installing the software package used in this lab:
+	1.	inside a virtual machine (VM), or
+	2.	directly on your own computer (macOS or Windows).
+For most students, reusing the SEED VM from previous labs is recommended, but installing locally is also supported.
 
 > [!IMPORTANT]
 > If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
 
 
-### Intel/AMD Machines x86-64 (Using VM)
-Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
+### Intel/AMD Machines x86-64
+Please reuse the **VM/environment** from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
 
 #### Install ARX on the SEED VM:
 
@@ -32,7 +34,7 @@ Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 se
 6. Use the command `./ARX-3.9.2-linux-x64-installer.run` to execute your RUN file for downloading the ARX tools on your SEED VM.
 7. Downbload the zip file containing the datasets to be used and save them on the VM.
 
-### Apple Machines (ARM chips)
+### Apple Machines
 
 #### Install ARX locally:
 
@@ -42,7 +44,7 @@ Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 se
 4. Use the command `unzip ARX-3.9.2-osx-installer.app.zip` to unzip the file.
 5. Use the command `cd ARX-3.9.2-osx-installer.app/Contents/MacOS` to get find the installer file `installbuilder.sh`.
 6. Use the command `chmod +x installbuilder.sh` to make your SH file executable. If there is no response after running this command, continue with Step 8.
-7. An alert will then pop up, stating:
+7. An alert may then pop up, stating:
 
 ```
 Apple could not verify “ARX-3.9.2-osx-installer” is free of malware that may harm your Mac or compromise your privacy.
@@ -53,7 +55,7 @@ Apple could not verify “ARX-3.9.2-osx-installer” is free of malware that may
 
 ### Continue to Lab Experiment
 
-After successfully installing ARX (on either the SEED VM or an Apple ARM machine):
+After successfully installing ARX:
 
 1. **Download the provided dataset zip file** from this repository.
 2. **Extract** the zip file and **open ARX** to import the dataset.
