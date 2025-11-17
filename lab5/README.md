@@ -16,7 +16,7 @@ Note: In general, there are two options for installing the software package used
 
 1.	inside a virtual machine (VM), or
 2.	directly on your own computer (macOS or Windows).
-   
+
 For most students, reusing the SEED VM from previous labs is recommended, but installing locally is also supported.
 
 > [!IMPORTANT]
