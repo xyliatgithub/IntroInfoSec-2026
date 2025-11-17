@@ -14,8 +14,8 @@ The lab manual and several datasets are available on Canvas. You will find a set
 ## Environment Setup
 Note: In general, there are two options for installing the software package used in this lab:
 
-	1.	inside a virtual machine (VM), or
-	2.	directly on your own computer (macOS or Windows).
+1.	inside a virtual machine (VM), or
+2.	directly on your own computer (macOS or Windows).
 For most students, reusing the SEED VM from previous labs is recommended, but installing locally is also supported.
 
 > [!IMPORTANT]
