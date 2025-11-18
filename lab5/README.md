@@ -1,14 +1,14 @@
 # Lab Assignment 5 - Data Privacy
 
-This lab assignment studies data privacy issues using a tool called ARX on a SEED VM. In this lab, you will learn data anonymization by applying the k-anonymity model.
+Using a tool called ARX, this lab will practice data anonymization by studying the k-anonymity model.
 
 ### Acknowledgement
 
-This lab is adopted with some minor revisions from the material by Dr. Mengjun Xie at the University of Tennessee at Chattanooga and Dr. Na Li at Prairie View A&M University.
+This lab is adopted with minor revisions to the material by Dr. Mengjun Xie at the University of Tennessee at Chattanooga and Dr. Na Li at Prairie View A&M University.
 
 ## Lab Manual and Datasets
 
-The lab manual and several datasets are available on Canvas. You will find a set of questions and tasks in the lab manual.
+The lab instructions and several datasets are available on Canvas. You will find a set of questions and tasks in the lab manual.
 
 
 ## Environment Setup
@@ -17,7 +17,7 @@ Note: In general, there are two options for installing the software package used
 1.	inside a virtual machine (VM), or
 2.	directly on your own computer (macOS or Windows).
 
-For most students, reusing the SEED VM from previous labs is recommended, but installing locally is also supported.
+For most students, reusing the SEED VM from previous labs is recommended, but installing locally is also fine. The following information is provided as examples. You may be able to download and install ARX for the OS you are using.
 
 > [!IMPORTANT]
 > If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
