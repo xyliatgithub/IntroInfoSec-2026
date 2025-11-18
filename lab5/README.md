@@ -8,7 +8,7 @@ This lab is adopted with minor revisions to the material by Dr. Mengjun Xie at t
 
 ## Lab Manual and Datasets
 
-The lab instructions and several datasets are available on Canvas. You will find a set of questions and tasks in the lab manual.
+The lab instruction manual and several datasets are available on Canvas. You will find a set of questions and tasks in the lab manual.
 
 
 ## Environment Setup
