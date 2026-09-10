@@ -45,8 +45,6 @@ In addition, please answer the following questions:
 
 2. In 3.3 task 2, If your operation is correct, you will be able to see a "cookie" in the window that pops up. Please briefly explain why the code you add in this task allows you to see this "cookie".
 
-Submission Details
-
 ## Submission Details
 
 - Each group only needs to submit one report in PDF format.
