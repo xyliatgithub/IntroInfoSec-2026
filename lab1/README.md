@@ -37,13 +37,13 @@ In this lab, you will complete the XSS web attack lab tasks from the SEED Labs. 
 
 Please thoroughly read the [lab instructions](https://seedsecuritylabs.org/Labs_20.04/Files/Web_XSS_Elgg/Web_XSS_Elgg.pdf) and complete all the tasks listed in it. We recommend you first go through all the instructions before you start. You need to write a detailed report with adequate screenshots and explanations, including your code and demonstration that your attacks are successful. An example is given for what it would look like.
 
+NOTE: In section 2.3, the password for "admin" may not work. However, it will not prevent you from completing the lab tasks as you do not need to access that account.
+
 In addition, please answer the following questions:
 
 1. In 3.2 task 1, why can we pop up a window using the first sample code provided in 3.2 Task 1? Please explain briefly how this happens. Is such an attack still possible in today's mainstream browsers? (To answer this question, you may need to search for any useful resources by yourself, and remember to provide the relevant evidence/references below.)
 
 2. In 3.3 task 2, If your operation is correct, you will be able to see a "cookie" in the window that pops up. Please briefly explain why the code you add in this task allows you to see this "cookie".
-
-[NOTE: In the section 2.3, User accounts, please use account except admin because the password might not work.]
 
 Submission Details
 
