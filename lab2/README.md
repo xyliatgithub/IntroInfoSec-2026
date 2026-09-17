@@ -8,7 +8,7 @@ Basic knowledge of computer networking is recommended. To get the most out of th
 
 ## Environment Setup
 > [!IMPORTANT]
-> If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
+> If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. 
 
 1. Please reuse the VM/environment from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
 2. For Packet Sniffing and Spoofing Lab, download the lab specific zip file **matching your CPU** from the [lab page](https://seedsecuritylabs.org/Labs_20.04/Networking/Sniffing_Spoofing/):
