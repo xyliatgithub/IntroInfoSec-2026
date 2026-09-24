@@ -30,9 +30,17 @@ https://seedsecuritylabs.org/Labs_20.04/Files/Sniffing_Spoofing/Sniffing_Spoofin
 
 You only need to complete **Lab Task Set 1**, which includes four tasks: (1) Sniffing Packets, (2) Spoofing ICMP Packets, (3) Traceroute, and (4) Sniffing and then Spoofing.
 
-**Sample code can be found here** (from the SEED Lab's creator): https://github.com/kevin-w-du/BookCode/tree/master/Sniffing_Spoofing
+**Sample code:**
+1. Task Set 1 uses Python (Scapy); all needed code samples are already in the PDF (§3.1–§3.4), which is sufficient on its own.
+2. The linked repo (https://github.com/kevin-w-du/BookCode/tree/master/Sniffing_Spoofing) is C code for Task Set 2 — optional reference only, not required here.
 
-**Note:** When running the code for Task 1.3, please use your home network, as the school's network has security measures that may prevent the code from running successfully.
+**Notes:**
+1. **Task 1.3:** please use your home network — the school's network has security measures that may prevent the code from running successfully.
+2. **Task 1.4:** no sample code is given. Write your own Scapy (Python) sniff-and-spoof for ICMP by combining Tasks 1.1 and 1.2 (the C code in the linked repo is for UDP and can't be used directly).
+   *Hints:*
+   - Use `sniff()` (as in Task 1.1) to capture ICMP echo requests, and inside the callback build a spoofed reply with `send()` (as in Task 1.2).
+   - Filter for echo requests only, e.g. `filter='icmp and icmp[icmptype]=8'`.
+   - In the spoofed reply: swap source/destination IP, set ICMP `type=0` (echo reply), and copy the request's `id`, `seq`, and payload — otherwise `ping` won't accept it.
 
 **Additional Question:** In 3.3 Task 1.3: Traceroute, we increment the TTL value to get the number of routers flowing through. Please explain why we can make this. (Hint: Getting to know what TTL is and the process of routing.)
 
