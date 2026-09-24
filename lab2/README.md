@@ -4,7 +4,7 @@ In this lab, each student team will complete several tasks in the _Packet Sniffi
 
 ## Recommended background
 
-Basic knowledge of computer networking is recommended. To get the most out of this lab, you needto have experience in computer networking (e.g., TCP/IP, socket programming) and/or spend some time learning about it. Additionally, familiarity with Docker networking configurations is important, as the lab may involve setting up and troubleshooting network communication between Docker containers.
+Basic knowledge of computer networking is recommended. To get the most out of this lab, you need to have experience in computer networking (e.g., TCP/IP, socket programming) and/or spend some time learning about it. Additionally, familiarity with Docker networking configurations is important, as the lab may involve setting up and troubleshooting network communication between Docker containers.
 
 ## Environment Setup
 > [!IMPORTANT]
@@ -48,7 +48,7 @@ You only need to complete **Lab Task Set 1**, which includes four tasks: (1) Sni
 
 https://seedsecuritylabs.org/Labs_20.04/Files/TCP_Attacks/TCP_Attacks.pdf
 
-You only need to complete Task1: SYNFlooding Attack (task 1.1 to task 1.3): **SYN Flooding Attack**.
+You only need to complete Task1: SYN Flooding Attack (task 1.1 to task 1.3): **SYN Flooding Attack**.
 
 **Additional Question:** Please explain how the SYN cookie mechanism can help to defend the SYN flood
 attacks.
