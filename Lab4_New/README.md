@@ -42,7 +42,7 @@ By completing this lab, you will:
     - Part 1: 650_601_Lab4_1_2025.ipynb
     - Part 2: 650_601_Lab4_2_2025.ipynb
 3. Provide the LingSpam dataset messages.csv (upload to Colab or mount Drive).
-4. Run cells top-to-bottom.
+4. Go through all the instructions carefully.
 
 ## Lab Tasks
 
