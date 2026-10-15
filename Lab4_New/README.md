@@ -41,7 +41,7 @@ By completing this lab, you will:
 2. Upload the notebook(s) from Canvas/GitHub:
     - Part 1: 650_601_Lab4_1_2025.ipynb
     - Part 2: 650_601_Lab4_2_2025.ipynb
-3. Provide the LingSpam dataset messages.csv (upload to Colab or mount Drive).
+3. Use the LingSpam dataset messages.csv.
 4. Go through all the instructions carefully.
 
 ## Lab Tasks
