@@ -39,8 +39,8 @@ By completing this lab, you will:
 
 1. Open Google Colab → [https://colab.research.google.com](https://colab.research.google.com/notebooks/)
 2. Upload the notebook(s) from Canvas/GitHub:
-    - Part 1: 650_601_Lab4_1_2025.ipynb
-    - Part 2: 650_601_Lab4_2_2025.ipynb
+    - Part 1: 650_601_Lab4_1_2026.ipynb
+    - Part 2: 650_601_Lab4_2_2026.ipynb
 3. Use the LingSpam dataset messages.csv.
 4. Go through all the instructions carefully.
 
@@ -63,7 +63,7 @@ By completing this lab, you will:
 
 ## Publication References 
 
-- Q. Tang and X. Li, “WiP: An Investigation of Large Language Models and Their Vulnerabilities in Spam Detection,” The Hot Topics in the Science of Security Symposium (HotSoS 2025), Virtual Event, April 1-3, 2025. [Download](https://isi.jhu.edu/wp-content/uploads/2025/03/HoTSoS_LLM_Based_Spam_Detection.pdf)
+- Q. Tang and X. Li, “WiP: An Investigation of Large Language Models and Their Vulnerabilities in Spam Detection,” The Hot Topics in the Science of Security Symposium (HotSoS 2025), Virtual Event, April 1-3, 2025. [Download](https://isi.jhu.edu/wp-content/uploads/2026/03/HoTSoS_LLM_Based_Spam_Detection.pdf)
 
 - Q. Cheng, A. Xu, X. Li, and L. Ding, “Adversarial Email Generation against Spam Detection Models through Feature Perturbation,” The 2022 IEEE International Conference on Assured Autonomy (ICAA’22), Virtual Event, March 22-23, 2022.
 
