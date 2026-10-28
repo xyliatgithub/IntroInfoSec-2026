@@ -63,7 +63,7 @@ By completing this lab, you will:
 
 ## Publication References 
 
-- Q. Tang and X. Li, “WiP: An Investigation of Large Language Models and Their Vulnerabilities in Spam Detection,” The Hot Topics in the Science of Security Symposium (HotSoS 2025), Virtual Event, April 1-3, 2025. [Download](https://isi.jhu.edu/wp-content/uploads/2026/03/HoTSoS_LLM_Based_Spam_Detection.pdf)
+- Q. Tang and X. Li, “WiP: An Investigation of Large Language Models and Their Vulnerabilities in Spam Detection,” The Hot Topics in the Science of Security Symposium (HotSoS 2025), Virtual Event, April 1-3, 2025.
 
 - Q. Cheng, A. Xu, X. Li, and L. Ding, “Adversarial Email Generation against Spam Detection Models through Feature Perturbation,” The 2022 IEEE International Conference on Assured Autonomy (ICAA’22), Virtual Event, March 22-23, 2022.
 
