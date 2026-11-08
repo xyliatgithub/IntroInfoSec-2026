@@ -4,26 +4,33 @@ Using a tool called ARX, this lab will practice data anonymization by studying t
 
 ### Acknowledgement
 
-This lab is adopted with minor revisions to the material by Dr. Mengjun Xie at the University of Tennessee at Chattanooga and Dr. Na Li at Prairie View A&M University.
+This lab is adapted with minor revisions to the material by Dr. Mengjun Xie at the University of Tennessee at Chattanooga and Dr. Na Li at Prairie View A&M University.
 
 ## Lab Manual and Datasets
 
 The lab instruction manual and several datasets are available on Canvas. You will find a set of questions and tasks in the lab manual.
 
-
 ## Environment Setup
 Note: In general, there are two options for installing the software package used in this lab:
 
-1.	inside a virtual machine (VM), or
-2.	directly on your own computer (macOS or Windows).
+1.	directly on your own computer (Windows or macOS), or
+2.	inside a virtual machine (VM).
 
-For most students, reusing the SEED VM from previous labs is recommended, but installing locally is also fine. The following information is provided as examples. You may be able to download and install ARX for the OS you are using.
+ARX runs directly on Windows, so installing it locally is the simplest option. You can also keep using the SEED VM from previous labs. The following information is provided as examples. You may be able to download and install ARX for the OS you are using.
 
 > [!IMPORTANT]
 > If your laptop runs into VM issues, you can always do the lab on the **MSSI Lab** computers. First **activate your ISI/MSSI account**: https://wiki.isi.jhu.edu/index.php/MSSI_Accounts. For details, see Christopher Venghaus’s email titled **“MSSI Account Information.”**
 
-
-### Intel/AMD Machines x86-64
+### Windows Machines
+ 
+#### Install ARX locally:
+ 
+1. Go to the ARX download website: https://arx.deidentifier.org/downloads/.
+2. From Anonymization Tool -> Installer, download the `Windows 64-Bit` version of the ARX.
+3. Run the downloaded installer and keep the default options.
+4. After the installation, open ARX from the Start menu.
+   
+### Intel/AMD Machines x86-64 (SEED VM)
 Please reuse the **VM/environment** from **Lab 1**. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 – Environment Setup](../lab1/README.md#environment-setup).
 
 #### Install ARX on the SEED VM:
@@ -31,10 +38,10 @@ Please reuse the **VM/environment** from **Lab 1**. If you already finished Lab 
 1. Open the VM.
 2. In your VM, go to the ARX download website: https://arx.deidentifier.org/downloads/.
 3. From Anonymization Tool -> Installer, download the `Linux/GTK 64bit` version of the ARX.
-4. After download the ARX, in you VM file folder, open the terminal.
+4. After downloading ARX, open a terminal in the folder where it was saved.
 5. Use the command `chmod +x ARX-3.9.2-linux-x64-installer.run` to make your RUN file executable.
 6. Use the command `./ARX-3.9.2-linux-x64-installer.run` to execute your RUN file for downloading the ARX tools on your SEED VM.
-7. Downbload the zip file containing the datasets to be used and save them on the VM.
+7. Download the zip file containing the datasets to be used and save them on the VM.
 
 ### Apple Machines
 
@@ -59,14 +66,14 @@ Apple could not verify “ARX-3.9.2-osx-installer” is free of malware that may
 
 After successfully installing ARX:
 
-1. **Download the provided dataset zip file** from this repository.
+1. **Download the provided dataset zip file** from Canvas.
 2. **Extract** the zip file and **open ARX** to import the dataset.
 3. You can now **start the anonymization experiment** following the lab instructions.
 
 ## Submission Details
 
 - Each group only needs to submit one report in PDF format.
-- Please list group members in your report clearly.
+- Please list group members and contribution in your report clearly.
 - Only typed reports are accepted.
 - Make sure to include screenshots, explanations, and all your answers to all the questions in your report.
 
